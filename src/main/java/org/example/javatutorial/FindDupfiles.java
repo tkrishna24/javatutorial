@@ -36,7 +36,7 @@ public class FindDupfiles {
 
     private static boolean CompareFiles(File file, File file1) throws FileNotFoundException {
         try {
-
+//This is for testing
             FileInputStream a = new FileInputStream(file);
             FileInputStream b = new FileInputStream(file1);
             boolean result = true;
